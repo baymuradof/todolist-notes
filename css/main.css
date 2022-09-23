@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center ;
+    height: 100vh;
+}
+
+.notelist-wrapper{
+    width: 560px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    background-color: white ;
+    padding: 1rem;
+}
+
+.notelist-adder{
+    width: 100%;
+    height: 250px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    border-radius: 10px;
+}
+
+.form-adder{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem ;
+}
+
+.input-wrap{
+    display: flex;
+    flex: 1;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.input-wrap > input{
+    height: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-indent: 10px;
+    color: rgb(132, 203, 25);
+    caret-color: black;
+}
+
+.input-wrap > i{
+    font-size: 25px;
+    color: red;
+}
+
+button[type="submit"]{
+    background-color: rgb(144, 216, 35) ;
+    padding:0px  30px;
+    height: 50px ;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+     
+}
